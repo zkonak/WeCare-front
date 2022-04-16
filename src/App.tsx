@@ -1,11 +1,13 @@
 import React from 'react';
+import styles from './App.module.scss';
+import ButtonComponent from './components/atoms/Button/ButtonComponent';
 
-import './App.css';
 
 function App() {
   return (
-    <div className="App">
+    <div  className={styles.container}>
      <h1>React Typescript</h1>
+     <ButtonComponent></ButtonComponent>
     </div>
   );
 }

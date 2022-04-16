@@ -1,11 +1,12 @@
-import React from 'react';
+import React from "react";
 
-import './App.css';
+import "./App.scss";
+import Routes from "./routes/Routes";
 
 function App() {
   return (
     <div className="App">
-     <h1>React Typescript</h1>
+      <Routes />
     </div>
   );
 }

@@ -1,0 +1,36 @@
+$color-1:#FB9AD2;
+$color-3: #5BB7F3;
+$color-2: #7D7987;
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    outline: none;
+    border: none;
+    text-decoration: none;
+
+    &::selection {
+        background: $color-1;
+    }
+}
+
+a,
+a:visited {
+    color: $color-2;
+}
+
+body {
+    line-height: 1.4rem;
+
+    color: $color-2;
+    padding: 2rem;
+    min-height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+
+
+}

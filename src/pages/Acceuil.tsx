@@ -1,11 +1,13 @@
 import React from "react";
-import Header from "../components/templates/Header";
-
+import HeaderComponent from "../components/templates/header/HeaderComponent";
+import { ThemeProvider } from "styled-components";
+import theme from "../components/templates/header/stylesheet";
 const Acceuil = () => {
   return (
     <div>
-      <Header />
-      <p>hello acceuil</p>
+      <ThemeProvider theme={theme}>
+        <HeaderComponent />
+      </ThemeProvider>
     </div>
   );
 };

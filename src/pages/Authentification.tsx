@@ -1,12 +1,12 @@
 import React from "react";
-import Login from "../components/templates/Login";
-import Register from "../components/templates/Register";
+import ConnectModel from "../components/templates/authentification/ConnectModel";
 
 const Authentification = () => {
   return (
     <div>
-      <Register />
-      <Login />
+      <div className="authentification">
+        <ConnectModel />
+      </div>
     </div>
   );
 };
